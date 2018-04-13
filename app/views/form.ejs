@@ -1,0 +1,17 @@
+<% include partials/template/header %>
+<div id="container">
+    <% include partials/template/nav %>
+    <div id="form" class="sections">
+        <form class="form" method="POST">
+            <label>First Name</label>
+            <input type="text" id="fname" placeholder="Enter your first name" required>
+            <label>Last Name</label>
+            <input type="text" id="lname" placeholder="Enter your last name">
+            <label>Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
+<% include partials/template/jsdefaults.ejs %> 
+<% include partials/template/footer %>
